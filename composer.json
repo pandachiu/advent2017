@@ -1,0 +1,20 @@
+{
+    "name": "pete/advent2017",
+    "description": "Advent of 2017 code challenges",
+    "type": "project",
+    "require": {
+        "php": ">=7.2.0",
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PandaChiu\\Advent2017\\PassPhraseValidator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter Chiu",
+            "email": "petersaihongchiu@hotmail.com"
+        }
+    ]
+}
